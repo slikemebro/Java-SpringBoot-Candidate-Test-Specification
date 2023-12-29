@@ -1,4 +1,4 @@
-**# Java Junior-level technical task**
+# **Java Junior-level technical task**
 
 >## Description:
 Application for scraping jobs from jobs.techstars.com by specific job function
