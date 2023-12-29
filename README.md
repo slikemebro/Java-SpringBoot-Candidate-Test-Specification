@@ -47,8 +47,8 @@ For every job, you need to gather next points:
 
 >## Technical requirements:
 1. For sending requests to the website, you can use any of the following:
-  a.okhttp
-  b. jsoup
+  - okhttp
+  - jsoup
 2. As framework you can use - Spring Boot
 3. If you decide to render page to get information from site pages, use any of the following:
   a. Selenium
