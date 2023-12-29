@@ -51,8 +51,8 @@ For every job, you need to gather next points:
   - jsoup
 2. As framework you can use - Spring Boot
 3. If you decide to render page to get information from site pages, use any of the following:
-  a. Selenium
-  b. Playwright
+  - Selenium
+  - Playwright
 4. Database for storing data - any of sql (PostgreSQL, MySQL)
 5. Datasource interaction through ORM 
 6. Build tools preference use the Maven
