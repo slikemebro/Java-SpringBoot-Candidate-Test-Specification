@@ -4,11 +4,11 @@
 Application for scraping jobs from jobs.techstars.com by specific job function
 
 
->##User story:
+>## User story:
 As a user, I want to have an application that can scrape job listings from jobs.techstars.com based on specific job functions. The application should allow me to input the desired work functions or job categories I am interested in, and then it should automatically crawl the website to gather relevant job postings for those functions. The scraped data should be presented in a user-friendly format, showing key details. Additionally, I would like the application to have an option to filter or sort the results based on different criteria, such as job location or posting date. This will help me efficiently find and explore job opportunities tailored to my preferences, ultimately simplifying the job search process and improving my overall experience on the jobs.techstars.com platform.
 
 
->##List page:
+>## List page:
 Url to page - https://jobs.techstars.com/jobs
 Use the “Job function” dropdown menu to choose a specific job function.
 Collect all jobs filtered by specific job function
@@ -19,7 +19,7 @@ Collect all jobs filtered by specific job function
 4. tags
 
 
->##Item:
+>## Item:
 For every job, you need to gather next points:
 
 1. position name
@@ -31,8 +31,8 @@ For every job, you need to gather next points:
 7. posted date
 8. description
 
->##Data to collect (Data points):
->##(If some data is not provided, the field should be 'NOT_FOUND')
+>## Data to collect (Data points):
+>## (If some data is not provided, the field should be 'NOT_FOUND')
 1. job page url on jobs.techstars.com
 2. position name
 3. url to organization
@@ -45,7 +45,7 @@ For every job, you need to gather next points:
 10. tags names (can be one line string separated by coma)
 
 
->##Technical requirements:
+>## Technical requirements:
 1. For sending requests to the website, you can use any of the following:
   a.okhttp
   b. jsoup
@@ -57,7 +57,7 @@ For every job, you need to gather next points:
 5. Datasource interaction through ORM 
 6. Build tools preference use the Maven
 
->##Must have:
+>## Must have:
 1. All your source code should be uploaded to VCS. (GitHub, GitLab, Bitbucket)
 2. Enforcement of Object-Oriented Programming (OOP) principles and adherence to clean code practices
 3. Scraping results - only first page of one of any job function
@@ -66,11 +66,11 @@ For every job, you need to gather next points:
 6. README.md - with short description
 
 
->##As plus:
+>## As plus:
 1. Use docker
 2. Use multithreaded
 3. Upload results into Google Sheet (through google api by application)
 
->##Result of task:
+>## Result of task:
 1. Fully working code with additional files (INSTALL.md, README.md) uploaded on any VCS
 2. Scraping results in SQL database dump uploaded on google drive or CSV file
